@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<script>
+function computerPlay(){
+   var computerNum = Math.floor((Math.random() *3) +1);
+   var computerChoice;
+    if(computerNum ===1){
+        computerChoice = "Rock";}
+    if(computerNum ===2){
+        computerChoice= "Paper";}
+    if(computerNum ===3){
+        computerChoice = "Scissors";}
+    return("I choose " computerChoice ")
+    }
+}
+<h1> "Welcome to Rock, Paper, Scissors." </h1>
+
+</script>
