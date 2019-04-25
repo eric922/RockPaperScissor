@@ -9,8 +9,15 @@ function computerPlay(){
         computerChoice= "Paper";}
     if(computerNum ===3){
         computerChoice = "Scissors";}
-    return("I choose " computerChoice ")
+    return("I choose " + computerChoice)
     }
+function playerChoice() {
+   var choice = prompt("Please make your selection");
+   return choice;
+}
+const var playerPick = playerChoice;
+const var ComputerPick = computerPlay;
+
 }
 <h1> "Welcome to Rock, Paper, Scissors." </h1>
 
